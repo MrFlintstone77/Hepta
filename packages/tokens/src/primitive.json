@@ -1,0 +1,69 @@
+{
+  "color": {
+    "neutral": {
+      "0": { "value": "#ffffff", "$description": "White" },
+      "50": { "value": "#f8f9fa", "$description": "Neutral 50" },
+      "100": { "value": "#f1f3f4", "$description": "Neutral 100" },
+      "200": { "value": "#e8eaed", "$description": "Neutral 200" },
+      "300": { "value": "#dadce0", "$description": "Neutral 300" },
+      "400": { "value": "#bdc1c6", "$description": "Neutral 400" },
+      "500": { "value": "#9aa0a6", "$description": "Neutral 500" },
+      "600": { "value": "#80868b", "$description": "Neutral 600" },
+      "700": { "value": "#5f6368", "$description": "Neutral 700" },
+      "800": { "value": "#3c4043", "$description": "Neutral 800" },
+      "900": { "value": "#202124", "$description": "Neutral 900" },
+      "950": { "value": "#000000", "$description": "Black" }
+    },
+    "primary": {
+      "50": { "value": "#e8f0fe", "$description": "Primary 50" },
+      "500": { "value": "#0066cc", "$description": "Primary 500" },
+      "600": { "value": "#0052a3", "$description": "Primary 600" },
+      "700": { "value": "#003d7a", "$description": "Primary 700" }
+    },
+    "error": {
+      "50": { "value": "#fce8e6", "$description": "Error 50" },
+      "500": { "value": "#d93025", "$description": "Error 500" }
+    }
+  },
+  "spacing": {
+    "0": { "value": "0", "$description": "No spacing" },
+    "1": { "value": "4px", "$description": "4px" },
+    "2": { "value": "8px", "$description": "8px" },
+    "3": { "value": "12px", "$description": "12px" },
+    "4": { "value": "16px", "$description": "16px" },
+    "5": { "value": "20px", "$description": "20px" },
+    "6": { "value": "24px", "$description": "24px" },
+    "8": { "value": "32px", "$description": "32px" },
+    "10": { "value": "40px", "$description": "40px" }
+  },
+  "radius": {
+    "sm": { "value": "4px", "$description": "Small border radius" },
+    "md": { "value": "8px", "$description": "Medium border radius" },
+    "lg": { "value": "12px", "$description": "Large border radius" },
+    "full": { "value": "9999px", "$description": "Full/pill radius" }
+  },
+  "shadow": {
+    "sm": { "value": "0 1px 2px rgba(0,0,0,0.05)", "$description": "Small shadow" },
+    "md": { "value": "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1)", "$description": "Medium shadow" },
+    "lg": { "value": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1)", "$description": "Large shadow" }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": { "value": "'Inter', system-ui, -apple-system, sans-serif", "$description": "Primary font family" },
+      "mono": { "value": "ui-monospace, monospace", "$description": "Monospace font" }
+    },
+    "fontSize": {
+      "xs": { "value": "12px", "$description": "Extra small" },
+      "sm": { "value": "14px", "$description": "Small" },
+      "base": { "value": "16px", "$description": "Base" },
+      "lg": { "value": "18px", "$description": "Large" },
+      "xl": { "value": "20px", "$description": "Extra large" }
+    },
+    "fontWeight": {
+      "normal": { "value": "400", "$description": "Normal" },
+      "medium": { "value": "500", "$description": "Medium" },
+      "semibold": { "value": "600", "$description": "Semibold" },
+      "bold": { "value": "700", "$description": "Bold" }
+    }
+  }
+}

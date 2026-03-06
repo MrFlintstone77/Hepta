@@ -1,0 +1,68 @@
+.pario-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--pario-typography-font-family-sans);
+  font-weight: var(--pario-typography-font-weight-medium);
+  border-radius: var(--pario-radius-md);
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s ease;
+}
+
+.pario-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pario-btn--sm {
+  padding: var(--pario-spacing-1) var(--pario-spacing-3);
+  font-size: var(--pario-typography-font-size-sm);
+}
+
+.pario-btn--md {
+  padding: var(--pario-spacing-2) var(--pario-spacing-4);
+  font-size: var(--pario-typography-font-size-base);
+}
+
+.pario-btn--lg {
+  padding: var(--pario-spacing-3) var(--pario-spacing-6);
+  font-size: var(--pario-typography-font-size-lg);
+}
+
+.pario-btn--primary {
+  background: var(--pario-color-button-primary-background);
+  color: var(--pario-color-button-primary-text);
+}
+
+.pario-btn--primary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.pario-btn--secondary {
+  background: var(--pario-color-button-secondary-background);
+  color: var(--pario-color-button-secondary-text);
+}
+
+.pario-btn--secondary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.pario-btn--outline {
+  background: transparent;
+  color: var(--pario-color-button-outline-text);
+  border: 2px solid var(--pario-color-button-outline-border);
+}
+
+.pario-btn--outline:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.pario-btn--ghost {
+  background: transparent;
+  color: var(--pario-color-text-primary);
+}
+
+.pario-btn--ghost:hover:not(:disabled) {
+  background: var(--pario-color-button-secondary-background);
+}

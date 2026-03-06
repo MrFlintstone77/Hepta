@@ -1,0 +1,22 @@
+.pario-card {
+  background: var(--pario-color-card-background);
+  border-radius: var(--pario-radius-lg);
+  border: 1px solid var(--pario-color-input-border);
+  overflow: hidden;
+}
+
+.pario-card--elevated {
+  box-shadow: var(--pario-shadow-md);
+}
+
+.pario-card__header {
+  padding: var(--pario-spacing-4);
+  font-size: var(--pario-typography-font-size-lg);
+  font-weight: var(--pario-typography-font-weight-semibold);
+  color: var(--pario-color-text-primary);
+  border-bottom: 1px solid var(--pario-color-input-border);
+}
+
+.pario-card__body {
+  padding: var(--pario-spacing-4);
+}

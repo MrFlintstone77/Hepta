@@ -1,0 +1,39 @@
+.pario-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pario-spacing-1);
+}
+
+.pario-input-label {
+  font-size: var(--pario-typography-font-size-sm);
+  font-weight: var(--pario-typography-font-weight-medium);
+  color: var(--pario-color-text-primary);
+}
+
+.pario-input {
+  padding: var(--pario-spacing-2) var(--pario-spacing-3);
+  font-family: var(--pario-typography-font-family-sans);
+  font-size: var(--pario-typography-font-size-base);
+  color: var(--pario-color-text-primary);
+  background: var(--pario-color-background-primary);
+  border: 2px solid var(--pario-color-input-border);
+  border-radius: var(--pario-radius-md);
+}
+
+.pario-input::placeholder {
+  color: var(--pario-color-text-secondary);
+}
+
+.pario-input:focus {
+  outline: none;
+  border-color: var(--pario-color-primary-500);
+}
+
+.pario-input-wrapper--error .pario-input {
+  border-color: var(--pario-color-input-border-error);
+}
+
+.pario-input-error {
+  font-size: var(--pario-typography-font-size-sm);
+  color: var(--pario-color-error-500);
+}

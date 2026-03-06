@@ -1,0 +1,37 @@
+# ParioGO Design System
+
+This project is a design system documentation site and React component library. Use it as the source of truth when building frontends.
+
+## Packages
+
+- `@pariogo/tokens` – Design tokens (colors, spacing, typography, radius, shadow)
+- `@pariogo/components` – React components (Button, Input, Card)
+
+## Imports
+
+```tsx
+import { Button, Input, Card } from '@pariogo/components';
+import '@pariogo/tokens/css';
+import '@pariogo/components/styles.css';
+```
+
+## Design Tokens
+
+- **Never use hardcoded colors, spacing, or typography.** Use CSS custom properties.
+- Token reference: `packages/tokens/dist/tokens.manifest.json` – lists all tokens with light/dark values and descriptions.
+- CSS variables use the `--pario-*` prefix, e.g. `--pario-color-text-primary`, `--pario-spacing-4`.
+
+## Components
+
+- **Reference:** `packages/components/dist/components.manifest.json` – component list, props, variants, usage examples.
+- All components use tokens and support light/dark theme via `data-theme` on an ancestor.
+
+## Theming
+
+Set `data-theme="light"` or `data-theme="dark"` on `document.documentElement` to switch themes.
+
+## Conventions
+
+- Use semantic token names (e.g. `color.button.primary.background`) not primitives in component logic.
+- Components accept `className` and standard HTML props for overrides.
+- Props follow consistent patterns: `variant`, `size`, `disabled` where applicable.

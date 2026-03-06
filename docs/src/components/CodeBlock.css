@@ -1,0 +1,36 @@
+.code-block {
+  position: relative;
+  margin: var(--pario-spacing-4) 0;
+}
+
+.code-block__copy {
+  position: absolute;
+  top: var(--pario-spacing-2);
+  right: var(--pario-spacing-2);
+  padding: var(--pario-spacing-1) var(--pario-spacing-2);
+  font-size: var(--pario-typography-font-size-xs);
+  background: var(--pario-color-button-secondary-background);
+  color: var(--pario-color-button-secondary-text);
+  border: none;
+  border-radius: var(--pario-radius-sm);
+  cursor: pointer;
+}
+
+.code-block__copy:hover {
+  opacity: 0.9;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: var(--pario-spacing-4);
+  overflow-x: auto;
+  background: var(--pario-color-background-secondary);
+  border-radius: var(--pario-radius-md);
+  border: 1px solid var(--pario-color-input-border);
+}
+
+.code-block code {
+  font-family: var(--pario-typography-font-family-mono);
+  font-size: var(--pario-typography-font-size-sm);
+  color: var(--pario-color-text-primary);
+}

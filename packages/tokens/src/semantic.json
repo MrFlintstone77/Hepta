@@ -1,0 +1,85 @@
+{
+  "color": {
+    "background": {
+      "primary": {
+        "value": "{color.neutral.0}",
+        "dark": "{color.neutral.900}",
+        "$description": "Primary page background"
+      },
+      "secondary": {
+        "value": "{color.neutral.50}",
+        "dark": "{color.neutral.800}",
+        "$description": "Secondary/surface background"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "{color.neutral.900}",
+        "dark": "{color.neutral.0}",
+        "$description": "Primary text color"
+      },
+      "secondary": {
+        "value": "{color.neutral.600}",
+        "dark": "{color.neutral.400}",
+        "$description": "Secondary/muted text"
+      }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "{color.primary.500}",
+          "dark": "{color.primary.500}",
+          "$description": "Primary button background"
+        },
+        "text": {
+          "value": "{color.neutral.0}",
+          "dark": "{color.neutral.0}",
+          "$description": "Primary button text"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "{color.neutral.200}",
+          "dark": "{color.neutral.700}",
+          "$description": "Secondary button background"
+        },
+        "text": {
+          "value": "{color.neutral.900}",
+          "dark": "{color.neutral.0}",
+          "$description": "Secondary button text"
+        }
+      },
+      "outline": {
+        "border": {
+          "value": "{color.neutral.300}",
+          "dark": "{color.neutral.600}",
+          "$description": "Outline button border"
+        },
+        "text": {
+          "value": "{color.neutral.900}",
+          "dark": "{color.neutral.0}",
+          "$description": "Outline button text"
+        }
+      }
+    },
+    "input": {
+      "border": {
+        "value": "{color.neutral.300}",
+        "dark": "{color.neutral.600}",
+        "$description": "Input border"
+      },
+      "borderError": {
+        "value": "{color.error.500}",
+        "dark": "{color.error.500}",
+        "$description": "Input error border"
+      }
+    },
+    "card": {
+      "background": {
+        "value": "{color.neutral.0}",
+        "dark": "{color.neutral.800}",
+        "$description": "Card background"
+      }
+    }
+  }
+}
