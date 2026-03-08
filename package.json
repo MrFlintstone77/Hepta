@@ -12,7 +12,11 @@
     "build:components": "npm run build -w @pariogo/components",
     "preview": "npm run preview -w docs"
   },
+  "packageManager": "npm@10.8.2",
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "shadcn": "^4.0.0"
   }
 }

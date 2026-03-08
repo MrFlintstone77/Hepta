@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { DocFooter } from '@/components/DocFooter';
 
 export function Examples() {
@@ -8,12 +9,25 @@ export function Examples() {
         Example patterns and compositions using the design system components.
       </p>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
-        Coming soon
+        Example patterns
       </h2>
-      <p>
-        This section will include form layouts, dashboard cards, and other common UI patterns.
-      </p>
-      <DocFooter prev={{ label: 'Search', href: '/components/search' }} />
+      <ul className="mt-4 space-y-2">
+        <li>
+          <Link
+            to="/examples/transaction-list"
+            className="text-primary hover:underline font-medium"
+          >
+            Transaction list
+          </Link>
+          <p className="text-sm text-muted-foreground mt-1">
+            A financial software transaction table with filtering, search, and pagination.
+          </p>
+        </li>
+      </ul>
+      <DocFooter
+        prev={{ label: 'Sheet', href: '/patterns/sheet' }}
+        next={{ label: 'Transaction list', href: '/examples/transaction-list' }}
+      />
     </article>
   );
 }

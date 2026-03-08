@@ -61,7 +61,7 @@ export function CardDocs() {
           </tbody>
         </table>
       </div>
-      <DocFooter prev={{ label: 'Input', href: '/components/input' }} next={{ label: 'Accordion', href: '/components/accordion' }} />
+      <DocFooter prev={{ label: 'Input', href: '/components/input' }} next={{ label: 'Calendar', href: '/components/calendar' }} />
     </article>
   );
 }

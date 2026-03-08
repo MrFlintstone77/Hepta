@@ -34,8 +34,8 @@ export function BreadcrumbsDocs() {
         <span className="text-foreground">Breadcrumbs</span>
       </nav>
       <DocFooter
-        prev={{ label: 'Accordion', href: '/components/accordion' }}
-        next={{ label: 'Checkbox', href: '/components/checkbox' }}
+        prev={{ label: 'Avatar', href: '/components/avatar' }}
+        next={{ label: 'Button', href: '/components/button' }}
       />
     </article>
   );

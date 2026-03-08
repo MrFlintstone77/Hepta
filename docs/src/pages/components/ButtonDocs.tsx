@@ -78,7 +78,7 @@ export function ButtonDocs() {
           </tbody>
         </table>
       </div>
-      <DocFooter prev={{ label: 'Components', href: '/components' }} next={{ label: 'Input', href: '/components/input' }} />
+      <DocFooter prev={{ label: 'Breadcrumbs', href: '/components/breadcrumbs' }} next={{ label: 'Input', href: '/components/input' }} />
     </article>
   );
 }

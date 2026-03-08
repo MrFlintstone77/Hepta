@@ -55,8 +55,8 @@ export function AccordionDocs() {
         </Collapsible>
       </div>
       <DocFooter
-        prev={{ label: 'Card', href: '/components/card' }}
-        next={{ label: 'Breadcrumbs', href: '/components/breadcrumbs' }}
+        prev={{ label: 'Components', href: '/components' }}
+        next={{ label: 'Alert dialog', href: '/components/alert-dialog' }}
       />
     </article>
   );
