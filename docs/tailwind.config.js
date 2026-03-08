@@ -62,10 +62,14 @@ module.exports = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+  		fontSize: {
+  			base: ['var(--pario-typography-font-size-base, 15px)', { lineHeight: '1.5' }],
+  		},
   		typography: ({ theme }) => ({
   			DEFAULT: {
   				css: {
   					fontFamily: theme('fontFamily.sans').join(', '),
+  					fontSize: 'var(--pario-typography-font-size-base, 15px)',
   				},
   			},
   		}),

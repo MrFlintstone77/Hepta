@@ -83,6 +83,7 @@
   }
   html {
     font-family: 'Geist', system-ui, -apple-system, sans-serif;
+    font-size: var(--pario-typography-font-size-base, 15px);
   }
   body {
     @apply bg-background font-sans text-foreground antialiased;

@@ -9,7 +9,6 @@ import { Patterns } from './pages/Patterns';
 import { SidebarPatternDocs } from './pages/patterns/SidebarPatternDocs';
 import { CommandPatternDocs } from './pages/patterns/CommandPatternDocs';
 import { SheetPatternDocs } from './pages/patterns/SheetPatternDocs';
-import { TransactionListExample } from './pages/examples/TransactionListExample';
 import { ButtonDocs } from './pages/components/ButtonDocs';
 import { InputDocs } from './pages/components/InputDocs';
 import { CardDocs } from './pages/components/CardDocs';
@@ -87,7 +86,6 @@ function App() {
             <Route path="/patterns/command" element={<CommandPatternDocs />} />
             <Route path="/patterns/sheet" element={<SheetPatternDocs />} />
             <Route path="/examples" element={<Examples />} />
-            <Route path="/examples/transaction-list" element={<TransactionListExample />} />
           </Routes>
         </Layout>
         <Toaster />

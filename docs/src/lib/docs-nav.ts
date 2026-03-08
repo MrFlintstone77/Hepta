@@ -40,6 +40,6 @@ export const docsPages: { label: string; path: string }[] = [
   { label: 'Sidebar', path: '/patterns/sidebar' },
   { label: 'Command', path: '/patterns/command' },
   { label: 'Sheet', path: '/patterns/sheet' },
-  { label: 'Examples overview', path: '/examples' },
-  { label: 'Transaction list', path: '/examples/transaction-list' },
+  { label: 'Examples', path: '/examples' },
+  { label: 'Transaction list', path: '/examples?demo=transaction-list' },
 ];

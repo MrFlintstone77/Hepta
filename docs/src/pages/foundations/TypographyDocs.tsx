@@ -31,7 +31,7 @@ export function TypographyDocs() {
           <code>--pario-typography-font-size-sm</code> – 14px (secondary text)
         </li>
         <li>
-          <code>--pario-typography-font-size-base</code> – 16px (body default)
+          <code>--pario-typography-font-size-base</code> – 15px (body default)
         </li>
         <li>
           <code>--pario-typography-font-size-lg</code> – 18px (lead text)
@@ -43,7 +43,7 @@ export function TypographyDocs() {
       <div className="space-y-2 rounded-lg border border-border bg-muted/50 p-6">
         <p style={{ fontSize: 'var(--pario-typography-font-size-xs)' }}>Extra small (12px)</p>
         <p style={{ fontSize: 'var(--pario-typography-font-size-sm)' }}>Small (14px)</p>
-        <p style={{ fontSize: 'var(--pario-typography-font-size-base)' }}>Base (16px)</p>
+        <p style={{ fontSize: 'var(--pario-typography-font-size-base)' }}>Base (15px)</p>
         <p style={{ fontSize: 'var(--pario-typography-font-size-lg)' }}>Large (18px)</p>
         <p style={{ fontSize: 'var(--pario-typography-font-size-xl)' }}>Extra large (20px)</p>
       </div>

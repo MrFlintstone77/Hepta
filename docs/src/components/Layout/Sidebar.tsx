@@ -71,10 +71,7 @@ const navItems = [
   {
     label: 'Examples',
     path: '/examples',
-    children: [
-      { label: 'Overview', path: '/examples' },
-      { label: 'Transaction list', path: '/examples/transaction-list' },
-    ],
+    children: [{ label: 'Transaction list', path: '/examples?demo=transaction-list' }],
   },
 ];
 
@@ -103,20 +100,22 @@ export function Sidebar() {
                 </CollapsibleTrigger>
                 <CollapsibleContent>
                   <div className="ml-4 flex flex-col gap-0.5 border-l border-sidebar-border py-1 pl-3">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.path}
-                        to={child.path}
-                        className={cn(
-                          'rounded-md px-3 py-2 text-sm transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground',
-                          location.pathname === child.path
-                            ? 'font-medium text-primary'
-                            : 'text-muted-foreground'
-                        )}
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
+                    {item.children.map((child) => {
+                      const fullPath = location.pathname + (location.search || '');
+                      const isActive = fullPath === child.path || location.pathname === child.path;
+                      return (
+                        <Link
+                          key={child.path}
+                          to={child.path}
+                          className={cn(
+                            'rounded-md px-3 py-2 text-sm transition-colors hover:bg-sidebar-accent hover:text-sidebar-accent-foreground',
+                            isActive ? 'font-medium text-primary' : 'text-muted-foreground'
+                          )}
+                        >
+                          {child.label}
+                        </Link>
+                      );
+                    })}
                   </div>
                 </CollapsibleContent>
               </Collapsible>

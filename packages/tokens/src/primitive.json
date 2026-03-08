@@ -55,7 +55,7 @@
     "fontSize": {
       "xs": { "value": "12px", "$description": "Extra small" },
       "sm": { "value": "14px", "$description": "Small" },
-      "base": { "value": "16px", "$description": "Base" },
+      "base": { "value": "15px", "$description": "Base" },
       "lg": { "value": "18px", "$description": "Large" },
       "xl": { "value": "20px", "$description": "Extra large" }
     },
