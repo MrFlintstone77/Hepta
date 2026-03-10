@@ -71,7 +71,17 @@ const navItems = [
   {
     label: 'Examples',
     path: '/examples',
-    children: [{ label: 'Transaction list', path: '/examples?demo=transaction-list' }],
+    children: [
+      { label: 'Financial dashboard', path: '/examples?demo=financial-dashboard' },
+      { label: 'Budget tracker', path: '/examples?demo=budget-tracker' },
+      { label: 'Savings goals', path: '/examples?demo=savings-goals' },
+      { label: 'Bill pay', path: '/examples?demo=bill-pay' },
+      { label: 'Transfer / send money', path: '/examples?demo=transfer' },
+      { label: 'Payment calendar', path: '/examples?demo=payment-calendar' },
+      { label: 'Spending insights', path: '/examples?demo=spending-insights' },
+      { label: 'Transaction list', path: '/examples?demo=transaction-list' },
+      { label: 'Debt list', path: '/examples?demo=debt-list' },
+    ],
   },
 ];
 

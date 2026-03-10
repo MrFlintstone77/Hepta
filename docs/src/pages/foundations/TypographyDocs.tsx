@@ -13,7 +13,7 @@ export function TypographyDocs() {
       <p>Use typography tokens for consistent font stacks:</p>
       <ul>
         <li>
-          <code>--pario-typography-font-family-sans</code> – primary UI and body text (Geist, system-ui)
+          <code>--pario-typography-font-family-sans</code> – primary UI and body text (Vend Sans, system-ui)
         </li>
         <li>
           <code>--pario-typography-font-family-mono</code> – code and technical content

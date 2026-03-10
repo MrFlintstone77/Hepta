@@ -6,7 +6,7 @@ module.exports = {
   	extend: {
   		fontFamily: {
   			sans: [
-  				'Geist',
+  				'Vend Sans',
   				'system-ui',
   				'-apple-system',
   				'sans-serif'
