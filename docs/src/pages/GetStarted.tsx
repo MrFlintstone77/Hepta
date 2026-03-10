@@ -7,7 +7,7 @@ export function GetStarted() {
     <article className="prose prose-neutral dark:prose-invert w-full max-w-none">
       <h1 className="scroll-m-20 text-3xl font-bold tracking-tight">Get started</h1>
       <p className="lead text-lg text-muted-foreground">
-        Welcome to the ParioGO Design System. This design system serves as the source of truth for
+        Welcome to the Hepta Design System. This design system serves as the source of truth for
         building frontends, including AI-assisted development.
       </p>
       <Alert variant="info" className="my-6">
@@ -22,13 +22,13 @@ export function GetStarted() {
         Installation
       </h2>
       <p>Install the design system packages in your React project:</p>
-      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`npm install @pariogo/components @pariogo/tokens`}</code></pre>
+      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`npm install @hepta/components @hepta/tokens`}</code></pre>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Setup
       </h2>
       <p>Import the token styles and component styles in your app entry point:</p>
-      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import '@pariogo/tokens/css';
-import '@pariogo/components/styles.css';`}</code></pre>
+      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import '@hepta/tokens/css';
+import '@hepta/components/styles.css';`}</code></pre>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Theme
       </h2>

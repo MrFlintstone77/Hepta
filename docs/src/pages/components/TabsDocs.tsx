@@ -20,7 +20,7 @@ export function TabsDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Tabs, TabsList, TabsTrigger, TabsContent } from '@pariogo/components';
+        <code>{`import { Tabs, TabsList, TabsTrigger, TabsContent } from '@hepta/components';
 
 <Tabs value={value} onValueChange={setValue}>
   <TabsList>

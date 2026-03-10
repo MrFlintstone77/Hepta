@@ -12,7 +12,7 @@ export function LinkDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Link } from '@pariogo/components';
+        <code>{`import { Link } from '@hepta/components';
 
 <Link href="/docs">Documentation</Link>
 <Link href="https://example.com" external>External site</Link>`}</code>

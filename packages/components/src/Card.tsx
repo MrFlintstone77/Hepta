@@ -28,11 +28,11 @@ export interface CardProps {
 export function Card({ title, children, variant = 'default', className = '' }: CardProps) {
   return (
     <div
-      className={`pario-card pario-card--${variant} ${className}`.trim()}
+      className={`hepta-card hepta-card--${variant} ${className}`.trim()}
       data-variant={variant}
     >
-      {title && <div className="pario-card__header">{title}</div>}
-      <div className="pario-card__body">{children}</div>
+      {title && <div className="hepta-card__header">{title}</div>}
+      <div className="hepta-card__body">{children}</div>
     </div>
   );
 }

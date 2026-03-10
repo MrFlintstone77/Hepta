@@ -83,7 +83,7 @@
   }
   html {
     font-family: 'Vend Sans', system-ui, -apple-system, sans-serif;
-    font-size: var(--pario-typography-font-size-base, 15px);
+    font-size: var(--hepta-typography-font-size-base, 15px);
   }
   body {
     @apply bg-background font-sans text-foreground antialiased;

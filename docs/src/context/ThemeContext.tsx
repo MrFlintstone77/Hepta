@@ -13,7 +13,7 @@ const ThemeContext = createContext<ThemeContextValue | null>(null);
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setThemeState] = useState<Theme>(() => {
     if (typeof document !== 'undefined') {
-      const stored = localStorage.getItem('pario-theme');
+      const stored = localStorage.getItem('hepta-theme');
       if (stored === 'light' || stored === 'dark') return stored;
       if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
     }
@@ -25,7 +25,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     if (typeof document !== 'undefined') {
       document.documentElement.setAttribute('data-theme', t);
       document.documentElement.classList.toggle('dark', t === 'dark');
-      localStorage.setItem('pario-theme', t);
+      localStorage.setItem('hepta-theme', t);
     }
   }, []);
 
@@ -37,7 +37,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     if (typeof document !== 'undefined') {
       document.documentElement.setAttribute('data-theme', theme);
       document.documentElement.classList.toggle('dark', theme === 'dark');
-      localStorage.setItem('pario-theme', theme);
+      localStorage.setItem('hepta-theme', theme);
     }
   }, [theme]);
 

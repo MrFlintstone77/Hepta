@@ -13,23 +13,23 @@ export function ElevationDocs() {
       <p>Three shadow levels map to common UI patterns:</p>
       <ul>
         <li>
-          <code>--pario-shadow-sm</code> – subtle lift (cards at rest, dropdowns)
+          <code>--hepta-shadow-sm</code> – subtle lift (cards at rest, dropdowns)
         </li>
         <li>
-          <code>--pario-shadow-md</code> – medium elevation (modals, popovers)
+          <code>--hepta-shadow-md</code> – medium elevation (modals, popovers)
         </li>
         <li>
-          <code>--pario-shadow-lg</code> – prominent depth (dialogs, overlays)
+          <code>--hepta-shadow-lg</code> – prominent depth (dialogs, overlays)
         </li>
       </ul>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`box-shadow: var(--pario-shadow-sm);
+        <code>{`box-shadow: var(--hepta-shadow-sm);
 /* or */
-box-shadow: var(--pario-shadow-md);
-box-shadow: var(--pario-shadow-lg);`}</code>
+box-shadow: var(--hepta-shadow-md);
+box-shadow: var(--hepta-shadow-lg);`}</code>
       </pre>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Visual preview
@@ -37,24 +37,24 @@ box-shadow: var(--pario-shadow-lg);`}</code>
       <div className="grid gap-6 sm:grid-cols-3">
         <div
           className="rounded-lg border border-border bg-card p-6"
-          style={{ boxShadow: 'var(--pario-shadow-sm)' }}
+          style={{ boxShadow: 'var(--hepta-shadow-sm)' }}
         >
           <p className="font-medium">Small</p>
-          <p className="text-sm text-muted-foreground">--pario-shadow-sm</p>
+          <p className="text-sm text-muted-foreground">--hepta-shadow-sm</p>
         </div>
         <div
           className="rounded-lg border border-border bg-card p-6"
-          style={{ boxShadow: 'var(--pario-shadow-md)' }}
+          style={{ boxShadow: 'var(--hepta-shadow-md)' }}
         >
           <p className="font-medium">Medium</p>
-          <p className="text-sm text-muted-foreground">--pario-shadow-md</p>
+          <p className="text-sm text-muted-foreground">--hepta-shadow-md</p>
         </div>
         <div
           className="rounded-lg border border-border bg-card p-6"
-          style={{ boxShadow: 'var(--pario-shadow-lg)' }}
+          style={{ boxShadow: 'var(--hepta-shadow-lg)' }}
         >
           <p className="font-medium">Large</p>
-          <p className="text-sm text-muted-foreground">--pario-shadow-lg</p>
+          <p className="text-sm text-muted-foreground">--hepta-shadow-lg</p>
         </div>
       </div>
       <DocFooter

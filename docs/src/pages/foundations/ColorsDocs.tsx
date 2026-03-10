@@ -14,24 +14,24 @@ export function ColorsDocs() {
       <p>Use semantic tokens for consistent theming across light and dark mode:</p>
       <ul>
         <li>
-          <code>--pario-color-background-primary</code> – page background
+          <code>--hepta-color-background-primary</code> – page background
         </li>
         <li>
-          <code>--pario-color-text-primary</code> – primary text
+          <code>--hepta-color-text-primary</code> – primary text
         </li>
         <li>
-          <code>--pario-color-button-primary-background</code> – primary button background
+          <code>--hepta-color-button-primary-background</code> – primary button background
         </li>
       </ul>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Primitive colors
       </h2>
       <p>
-        Neutral scale: <code>--pario-color-neutral-0</code> through{' '}
-        <code>--pario-color-neutral-950</code>
+        Neutral scale: <code>--hepta-color-neutral-0</code> through{' '}
+        <code>--hepta-color-neutral-950</code>
       </p>
       <p>
-        Primary: <code>--pario-color-primary-50</code>, <code>--pario-color-primary-500</code>, etc.
+        Primary: <code>--hepta-color-primary-50</code>, <code>--hepta-color-primary-500</code>, etc.
       </p>
       <DocFooter prev={{ label: 'Foundations', href: '/foundations' }} next={{ label: 'Icons', href: '/foundations/icons' }} />
     </article>

@@ -13,7 +13,7 @@ export function BreadcrumbsDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Breadcrumbs, BreadcrumbItem, BreadcrumbSeparator } from '@pariogo/components';
+        <code>{`import { Breadcrumbs, BreadcrumbItem, BreadcrumbSeparator } from '@hepta/components';
 
 <Breadcrumbs>
   <BreadcrumbItem href="/">Home</BreadcrumbItem>

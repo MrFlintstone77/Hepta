@@ -18,7 +18,7 @@ export function AccordionDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@pariogo/components';
+        <code>{`import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@hepta/components';
 
 <Accordion>
   <AccordionItem value="1">
@@ -34,12 +34,12 @@ export function AccordionDocs() {
         <Collapsible>
           <CollapsibleTrigger asChild>
             <Button variant="ghost" className="w-full justify-between px-4">
-              What is ParioGO?
+              What is Hepta?
               <ChevronDown className="h-4 w-4 transition-transform duration-200 group-data-[state=open]:rotate-180" />
             </Button>
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 pb-3 text-sm text-muted-foreground">
-            ParioGO is a design system for building consistent frontends.
+            Hepta is a design system for building consistent frontends.
           </CollapsibleContent>
         </Collapsible>
         <Collapsible>

@@ -1,22 +1,22 @@
-.pario-card {
-  background: var(--pario-color-card-background);
-  border-radius: var(--pario-radius-lg);
-  border: 1px solid var(--pario-color-input-border);
+.hepta-card {
+  background: var(--hepta-color-card-background);
+  border-radius: var(--hepta-radius-lg);
+  border: 1px solid var(--hepta-color-input-border);
   overflow: hidden;
 }
 
-.pario-card--elevated {
-  box-shadow: var(--pario-shadow-md);
+.hepta-card--elevated {
+  box-shadow: var(--hepta-shadow-md);
 }
 
-.pario-card__header {
-  padding: var(--pario-spacing-4);
-  font-size: var(--pario-typography-font-size-lg);
-  font-weight: var(--pario-typography-font-weight-semibold);
-  color: var(--pario-color-text-primary);
-  border-bottom: 1px solid var(--pario-color-input-border);
+.hepta-card__header {
+  padding: var(--hepta-spacing-4);
+  font-size: var(--hepta-typography-font-size-lg);
+  font-weight: var(--hepta-typography-font-weight-semibold);
+  color: var(--hepta-color-text-primary);
+  border-bottom: 1px solid var(--hepta-color-input-border);
 }
 
-.pario-card__body {
-  padding: var(--pario-spacing-4);
+.hepta-card__body {
+  padding: var(--hepta-spacing-4);
 }

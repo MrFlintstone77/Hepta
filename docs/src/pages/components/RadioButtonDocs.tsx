@@ -14,7 +14,7 @@ export function RadioButtonDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { RadioGroup, RadioItem } from '@pariogo/components';
+        <code>{`import { RadioGroup, RadioItem } from '@hepta/components';
 
 <RadioGroup value={value} onValueChange={setValue}>
   <RadioItem value="option1">Option 1</RadioItem>

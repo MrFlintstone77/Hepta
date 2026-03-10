@@ -21,22 +21,22 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ label, error, id, className = '', ...props }, ref) => {
     const inputId = id || `input-${Math.random().toString(36).slice(2)}`;
     return (
-      <div className={`pario-input-wrapper ${error ? 'pario-input-wrapper--error' : ''}`}>
+      <div className={`hepta-input-wrapper ${error ? 'hepta-input-wrapper--error' : ''}`}>
         {label && (
-          <label htmlFor={inputId} className="pario-input-label">
+          <label htmlFor={inputId} className="hepta-input-label">
             {label}
           </label>
         )}
         <input
           ref={ref}
           id={inputId}
-          className={`pario-input ${className}`.trim()}
+          className={`hepta-input ${className}`.trim()}
           aria-invalid={!!error}
           aria-describedby={error ? `${inputId}-error` : undefined}
           {...props}
         />
         {error && (
-          <span id={`${inputId}-error`} className="pario-input-error" role="alert">
+          <span id={`${inputId}-error`} className="hepta-input-error" role="alert">
             {error}
           </span>
         )}

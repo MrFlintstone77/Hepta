@@ -16,7 +16,7 @@ export function CheckboxDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Checkbox } from '@pariogo/components';
+        <code>{`import { Checkbox } from '@hepta/components';
 
 <Checkbox id="terms" checked={checked} onCheckedChange={setChecked} />
 <label htmlFor="terms">Accept terms</label>`}</code>

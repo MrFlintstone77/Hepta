@@ -1,5 +1,5 @@
 {
-  "name": "pariogo-design-system",
+  "name": "hepta-design-system",
   "private": true,
   "workspaces": [
     "packages/*",
@@ -8,8 +8,8 @@
   "scripts": {
     "dev": "npm run dev -w docs",
     "build": "npm run build:tokens && npm run build:components && npm run build -w docs",
-    "build:tokens": "npm run build -w @pariogo/tokens",
-    "build:components": "npm run build -w @pariogo/components",
+    "build:tokens": "npm run build -w @hepta/tokens",
+    "build:components": "npm run build -w @hepta/components",
     "preview": "npm run preview -w docs"
   },
   "packageManager": "npm@10.8.2",

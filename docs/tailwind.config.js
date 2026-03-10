@@ -63,13 +63,13 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		fontSize: {
-  			base: ['var(--pario-typography-font-size-base, 15px)', { lineHeight: '1.5' }],
+  			base: ['var(--hepta-typography-font-size-base, 15px)', { lineHeight: '1.5' }],
   		},
   		typography: ({ theme }) => ({
   			DEFAULT: {
   				css: {
   					fontFamily: theme('fontFamily.sans').join(', '),
-  					fontSize: 'var(--pario-typography-font-size-base, 15px)',
+  					fontSize: 'var(--hepta-typography-font-size-base, 15px)',
   				},
   			},
   		}),

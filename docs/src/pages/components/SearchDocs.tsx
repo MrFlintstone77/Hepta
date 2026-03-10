@@ -13,7 +13,7 @@ export function SearchDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Search } from '@pariogo/components';
+        <code>{`import { Search } from '@hepta/components';
 
 <Search
   placeholder="Search..."

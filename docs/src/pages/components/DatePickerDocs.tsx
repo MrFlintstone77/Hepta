@@ -13,7 +13,7 @@ export function DatePickerDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { DatePicker } from '@pariogo/components';
+        <code>{`import { DatePicker } from '@hepta/components';
 
 <DatePicker
   value={date}

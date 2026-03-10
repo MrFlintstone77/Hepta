@@ -11,7 +11,7 @@ const manifest = {
   components: [
     {
       name: 'Button',
-      importPath: '@pariogo/components',
+      importPath: '@hepta/components',
       props: [
         { name: 'variant', type: 'ButtonVariant', default: "'primary'", description: 'Visual style variant' },
         { name: 'size', type: 'ButtonSize', default: "'md'", description: 'Size of the button' },
@@ -19,30 +19,30 @@ const manifest = {
       ],
       variants: ['primary', 'secondary', 'outline', 'ghost'],
       sizes: ['sm', 'md', 'lg'],
-      usageExample: `import { Button } from '@pariogo/components';
+      usageExample: `import { Button } from '@hepta/components';
 
 <Button variant="primary" onClick={handleClick}>Save</Button>`,
     },
     {
       name: 'Input',
-      importPath: '@pariogo/components',
+      importPath: '@hepta/components',
       props: [
         { name: 'label', type: 'string', default: 'undefined', description: 'Label displayed above the input' },
         { name: 'error', type: 'string', default: 'undefined', description: 'Error message - shows error state when present' },
       ],
-      usageExample: `import { Input } from '@pariogo/components';
+      usageExample: `import { Input } from '@hepta/components';
 
 <Input label="Email" placeholder="you@example.com" />`,
     },
     {
       name: 'Card',
-      importPath: '@pariogo/components',
+      importPath: '@hepta/components',
       props: [
         { name: 'title', type: 'string', default: 'undefined', description: 'Optional card title shown in header' },
         { name: 'variant', type: 'CardVariant', default: "'default'", description: 'Visual variant' },
       ],
       variants: ['default', 'elevated'],
-      usageExample: `import { Card } from '@pariogo/components';
+      usageExample: `import { Card } from '@hepta/components';
 
 <Card title="Settings">Content here</Card>`,
     },

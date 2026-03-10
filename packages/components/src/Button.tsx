@@ -42,7 +42,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         type="button"
         disabled={disabled}
-        className={`pario-btn pario-btn--${variant} pario-btn--${size} ${className}`.trim()}
+        className={`hepta-btn hepta-btn--${variant} hepta-btn--${size} ${className}`.trim()}
         data-variant={variant}
         data-size={size}
         {...props}

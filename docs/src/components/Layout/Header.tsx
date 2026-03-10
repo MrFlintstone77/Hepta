@@ -38,7 +38,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-10 flex h-14 items-center gap-4 border-b border-border bg-background/95 px-4 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <Link to="/" className="shrink-0 font-semibold text-foreground hover:text-primary">
-        ParioGO
+        Hepta
       </Link>
       <div className="flex flex-1 items-end justify-end gap-4 text-left md:justify-end">
         <div className="relative hidden w-full max-w-sm md:block">

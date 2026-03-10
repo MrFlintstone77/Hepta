@@ -11,7 +11,7 @@ export function ProgressBarDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Progress } from '@pariogo/components';
+        <code>{`import { Progress } from '@hepta/components';
 
 <Progress value={60} max={100} />
 <Progress value={null} /> {/* Indeterminate */}`}</code>

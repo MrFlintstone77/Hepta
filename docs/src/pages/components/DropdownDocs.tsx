@@ -13,7 +13,7 @@ export function DropdownDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from '@pariogo/components';
+        <code>{`import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from '@hepta/components';
 
 <Dropdown>
   <DropdownTrigger asChild>

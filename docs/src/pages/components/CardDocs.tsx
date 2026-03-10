@@ -1,4 +1,4 @@
-import { Card } from '@pariogo/components';
+import { Card } from '@hepta/components';
 import { DocFooter } from '@/components/DocFooter';
 
 export function CardDocs() {
@@ -11,7 +11,7 @@ export function CardDocs() {
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Usage
       </h2>
-      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import { Card } from '@pariogo/components';
+      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import { Card } from '@hepta/components';
 
 <Card title="Settings">Content here</Card>
 <Card variant="elevated">Elevated card</Card>`}</code></pre>

@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'PariogoComponents',
-      fileName: 'pariogo-components',
+      name: 'HeptaComponents',
+      fileName: 'hepta-components',
       formats: ['es', 'cjs'],
     },
     rollupOptions: {

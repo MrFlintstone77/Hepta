@@ -1,25 +1,25 @@
-# ParioGO Design System
+# Hepta Design System
 
 This project is a design system documentation site and React component library. Use it as the source of truth when building frontends.
 
 ## Packages
 
-- `@pariogo/tokens` – Design tokens (colors, spacing, typography, radius, shadow)
-- `@pariogo/components` – React components (Button, Input, Card)
+- `@hepta/tokens` – Design tokens (colors, spacing, typography, radius, shadow)
+- `@hepta/components` – React components (Button, Input, Card)
 
 ## Imports
 
 ```tsx
-import { Button, Input, Card } from '@pariogo/components';
-import '@pariogo/tokens/css';
-import '@pariogo/components/styles.css';
+import { Button, Input, Card } from '@hepta/components';
+import '@hepta/tokens/css';
+import '@hepta/components/styles.css';
 ```
 
 ## Design Tokens
 
 - **Never use hardcoded colors, spacing, or typography.** Use CSS custom properties.
 - Token reference: `packages/tokens/dist/tokens.manifest.json` – lists all tokens with light/dark values and descriptions.
-- CSS variables use the `--pario-*` prefix, e.g. `--pario-color-text-primary`, `--pario-spacing-4`.
+- CSS variables use the `--hepta-*` prefix, e.g. `--hepta-color-text-primary`, `--hepta-spacing-4`.
 
 ## Components
 

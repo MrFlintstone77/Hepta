@@ -11,7 +11,7 @@ export function TooltipsDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Tooltip, TooltipTrigger, TooltipContent } from '@pariogo/components';
+        <code>{`import { Tooltip, TooltipTrigger, TooltipContent } from '@hepta/components';
 
 <Tooltip>
   <TooltipTrigger asChild>

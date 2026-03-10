@@ -34,9 +34,9 @@ export function Foundations() {
       <p>
         Tokens are available as CSS custom properties. Use them in your styles:
       </p>
-      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`color: var(--pario-color-text-primary);
-padding: var(--pario-spacing-4);
-border-radius: var(--pario-radius-md);`}</code></pre>
+      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`color: var(--hepta-color-text-primary);
+padding: var(--hepta-spacing-4);
+border-radius: var(--hepta-radius-md);`}</code></pre>
       <DocFooter prev={{ label: 'Get started', href: '/get-started' }} next={{ label: 'Colors', href: '/foundations/colors' }} />
     </article>
   );

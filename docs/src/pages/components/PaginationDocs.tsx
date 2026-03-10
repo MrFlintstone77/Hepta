@@ -17,7 +17,7 @@ export function PaginationDocs() {
         Usage
       </h2>
       <pre className="rounded-lg border border-border bg-muted p-4">
-        <code>{`import { Pagination } from '@pariogo/components';
+        <code>{`import { Pagination } from '@hepta/components';
 
 <Pagination
   page={page}

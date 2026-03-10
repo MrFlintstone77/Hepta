@@ -15,7 +15,7 @@ const sd = new StyleDictionary({
   platforms: {
     css: {
       transformGroup: 'css',
-      prefix: 'pario',
+      prefix: 'hepta',
       buildPath: 'dist/',
       files: [
         {
@@ -121,7 +121,7 @@ writeFileSync(join(distPath, 'tokens.manifest.json'), JSON.stringify(manifest, n
 const darkOverrides = [];
 for (const [name, meta] of Object.entries(manifest.tokens)) {
   if (meta.dark && meta.dark !== meta.light) {
-    const cssVar = `--pario-${name.replace(/\./g, '-')}`;
+    const cssVar = `--hepta-${name.replace(/\./g, '-')}`;
     darkOverrides.push(`  ${cssVar}: ${meta.dark};`);
   }
 }

@@ -66,7 +66,7 @@ export function Components() {
         Usage
       </h2>
       <p>Import components from the main package:</p>
-      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import { Button, Input, Card, Accordion, Breadcrumbs, Checkbox, DatePicker, DataTable, Dropdown, Link, Pagination, RadioGroup, Tabs, Tooltip, Progress, Search } from '@pariogo/components';`}</code></pre>
+      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import { Button, Input, Card, Accordion, Breadcrumbs, Checkbox, DatePicker, DataTable, Dropdown, Link, Pagination, RadioGroup, Tabs, Tooltip, Progress, Search } from '@hepta/components';`}</code></pre>
       <DocFooter prev={{ label: 'Elevation', href: '/foundations/elevation' }} next={{ label: 'Button', href: '/components/button' }} />
     </article>
   );

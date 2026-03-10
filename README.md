@@ -1,4 +1,4 @@
-# ParioGO Design System
+# Hepta Design System
 
 A React-based design system with documentation, optimized as an AI source of truth for frontend development.
 
@@ -35,13 +35,13 @@ Outputs:
 ## Usage in your app
 
 ```bash
-npm install @pariogo/components @pariogo/tokens
+npm install @hepta/components @hepta/tokens
 ```
 
 ```tsx
-import '@pariogo/tokens/css';
-import '@pariogo/components/styles.css';
-import { Button, Input, Card } from '@pariogo/components';
+import '@hepta/tokens/css';
+import '@hepta/components/styles.css';
+import { Button, Input, Card } from '@hepta/components';
 ```
 
 ## Theming

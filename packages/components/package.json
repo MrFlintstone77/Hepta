@@ -1,15 +1,15 @@
 {
-  "name": "@pariogo/components",
+  "name": "@hepta/components",
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "main": "./dist/pariogo-components.cjs",
-  "module": "./dist/pariogo-components.js",
+  "main": "./dist/hepta-components.cjs",
+  "module": "./dist/hepta-components.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/pariogo-components.js",
-      "require": "./dist/pariogo-components.cjs",
+      "import": "./dist/hepta-components.js",
+      "require": "./dist/hepta-components.cjs",
       "types": "./dist/index.d.ts"
     },
     "./styles.css": "./dist/index.css"

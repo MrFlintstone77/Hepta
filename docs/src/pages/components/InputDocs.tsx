@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Input } from '@pariogo/components';
+import { Input } from '@hepta/components';
 import { DocFooter } from '@/components/DocFooter';
 
 export function InputDocs() {
@@ -14,7 +14,7 @@ export function InputDocs() {
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Usage
       </h2>
-      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import { Input } from '@pariogo/components';
+      <pre className="rounded-lg border border-border bg-muted p-4"><code>{`import { Input } from '@hepta/components';
 
 <Input label="Email" placeholder="you@example.com" />
 <Input label="Name" error="Name is required" />`}</code></pre>

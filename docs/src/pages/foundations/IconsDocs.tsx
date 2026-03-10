@@ -131,7 +131,7 @@ export function IconsDocs() {
     <article className="prose prose-neutral dark:prose-invert w-full max-w-none">
       <h1 className="scroll-m-20 text-3xl font-bold tracking-tight">Icons</h1>
       <p className="lead text-lg text-muted-foreground">
-        ParioGO uses Lucide React for consistent, accessible icons throughout the design system.
+        Hepta uses Lucide React for consistent, accessible icons throughout the design system.
       </p>
       <h2 className="mt-10 scroll-m-20 border-b border-border pb-2 text-2xl font-semibold tracking-tight">
         Installation
