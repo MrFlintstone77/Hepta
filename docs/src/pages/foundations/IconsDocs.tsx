@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 
 type IconEntry = [string, React.ComponentType<{ className?: string }>];
 
-const COLS = 4;
+const COLS = 8;
 
 const ICON_ENTRIES: IconEntry[] = Object.entries(lucideIcons || {})
   .filter(
@@ -21,18 +21,13 @@ const ICON_ENTRIES: IconEntry[] = Object.entries(lucideIcons || {})
 
 function IconCell({ name, IconComponent }: { name: string; IconComponent: React.ComponentType<{ className?: string }> }) {
   return (
-    <div className="flex min-h-[72px] min-w-0 flex-col items-center justify-center gap-1.5 overflow-visible rounded-lg border border-border bg-muted/30 p-2 transition-colors hover:bg-muted/60 sm:p-3 sm:gap-2">
-      <div className="flex h-5 w-5 shrink-0 items-center justify-center overflow-visible text-foreground">
-        <IconErrorBoundary name={name}>
-          <IconComponent className="h-5 w-5 shrink-0 flex-shrink-0 text-current" />
-        </IconErrorBoundary>
-      </div>
-      <span
-        className="min-w-0 max-w-full truncate text-center text-[10px] text-muted-foreground"
-        title={name}
-      >
-        {name.length > 6 ? `${name.slice(0, 6)}…` : name}
-      </span>
+    <div
+      className="flex aspect-square min-h-0 min-w-0 max-h-full items-center justify-center overflow-visible rounded-lg bg-muted/50 text-foreground transition-colors hover:bg-muted"
+      title={name}
+    >
+      <IconErrorBoundary name={name}>
+        <IconComponent className="h-6 w-6 shrink-0 flex-shrink-0 text-current" strokeWidth={2} />
+      </IconErrorBoundary>
     </div>
   );
 }
@@ -52,7 +47,8 @@ class IconErrorBoundary extends React.Component<
     return this.props.children;
   }
 }
-const ROW_HEIGHT = 88;
+const ROW_HEIGHT = 72;
+const ROW_GAP = 8; // matches gap-2 between columns
 const OVERSCAN = 3;
 
 function VirtualizedIconGrid({
@@ -65,7 +61,7 @@ function VirtualizedIconGrid({
   const rowVirtualizer = useVirtualizer({
     count: rows.length,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => ROW_HEIGHT,
+    estimateSize: () => ROW_HEIGHT + ROW_GAP,
     overscan: OVERSCAN,
   });
 
@@ -82,13 +78,12 @@ function VirtualizedIconGrid({
         return (
           <div
             key={virtualRow.key}
-            className="grid gap-2 sm:gap-3"
+            className="grid h-[72px] gap-2 sm:gap-3"
             style={{
               position: 'absolute',
               top: 0,
               left: 0,
               width: '100%',
-              height: `${virtualRow.size}px`,
               transform: `translateY(${virtualRow.start}px)`,
               gridTemplateColumns: `repeat(${COLS}, minmax(0, 1fr))`,
             }}
@@ -196,7 +191,7 @@ export function IconsDocs() {
       </div>
       <div
         ref={parentRef}
-        className="h-[480px] min-h-0 overflow-auto rounded-lg border border-border"
+        className="h-[480px] min-h-0 overflow-auto rounded-lg border-0"
       >
         {filteredIcons.length > 0 ? (
           <VirtualizedIconGrid parentRef={parentRef} rows={rows} />
