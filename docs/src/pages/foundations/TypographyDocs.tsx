@@ -28,15 +28,9 @@ export function TypographyDocs() {
           </a>
         </li>
         <li>
-          <a
-            href="https://fonts.google.com/specimen/Geist+Mono"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-4 py-3 text-sm font-medium transition-colors hover:bg-muted"
-          >
-            Geist Mono
-            <ExternalLink className="h-4 w-4" />
-          </a>
+          <span className="inline-flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-4 py-3 text-sm font-medium">
+            Menlo (system font – macOS)
+          </span>
         </li>
       </ul>
 
@@ -49,7 +43,7 @@ export function TypographyDocs() {
           <code>--hepta-typography-font-family-sans</code> – primary UI and body text (Vend Sans, system-ui)
         </li>
         <li>
-          <code>--hepta-typography-font-family-mono</code> – code and technical content (Geist Mono)
+          <code>--hepta-typography-font-family-mono</code> – code and technical content (Menlo)
         </li>
       </ul>
       <h3 className="mt-6 text-lg font-semibold">Sans (Vend Sans)</h3>
@@ -61,7 +55,7 @@ export function TypographyDocs() {
           ABCDEFGHIJKLMNOPQRSTUVWXYZ · 0123456789
         </p>
       </div>
-      <h3 className="mt-6 text-lg font-semibold">Mono (Geist Mono)</h3>
+      <h3 className="mt-6 text-lg font-semibold">Mono (Menlo)</h3>
       <div className="mt-2 rounded-lg border border-border bg-muted/30 p-6">
         <p style={{ fontFamily: 'var(--hepta-typography-font-family-mono)' }} className="font-mono text-lg">
           The quick brown fox jumps over the lazy dog.

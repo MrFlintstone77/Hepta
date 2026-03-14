@@ -57,7 +57,7 @@
   "typography": {
     "fontFamily": {
       "sans": { "value": "'Vend Sans', system-ui, -apple-system, sans-serif", "$description": "Primary font family" },
-      "mono": { "value": "'Geist Mono', ui-monospace, monospace", "$description": "Monospace font" }
+      "mono": { "value": "Menlo, Monaco, 'Courier New', monospace", "$description": "Monospace font" }
     },
     "fontSize": {
       "xs": { "value": "12px", "$description": "Extra small" },

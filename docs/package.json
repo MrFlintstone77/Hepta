@@ -8,7 +8,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/geist-mono": "^5.2.7",
     "@fontsource/vend-sans": "^5.1.0",
     "@hookform/resolvers": "^5.2.2",
     "@hepta/components": "*",

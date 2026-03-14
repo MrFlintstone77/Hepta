@@ -12,8 +12,9 @@ module.exports = {
   				'sans-serif'
   			],
   			mono: [
-  				'Geist Mono',
-  				'ui-monospace',
+  				'Menlo',
+  				'Monaco',
+  				'Courier New',
   				'monospace'
   			]
   		},
