@@ -16,7 +16,7 @@ export function Layout({ children }: LayoutProps) {
           <Sidebar />
         </aside>
         <main className="flex min-w-0 flex-1">
-          <div className="docs-content flex w-full flex-1 flex-col items-center justify-start px-6 py-20 md:px-8">{children}</div>
+          <div className="docs-content flex w-full flex-1 flex-col items-start justify-start px-6 py-20 md:px-8">{children}</div>
           <aside className="hidden w-56 shrink-0 border-l border-border xl:block">
             <div className="sticky top-14 h-[calc(100vh-3.5rem)] overflow-auto px-6 py-8">
               <PageNav />
