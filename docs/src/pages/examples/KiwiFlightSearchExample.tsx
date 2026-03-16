@@ -458,16 +458,6 @@ export function KiwiFlightSearchFullPageDemo() {
           </Card>
         </aside>
       </div>
-
-      {/* Footer */}
-      <footer className="flex shrink-0 items-center justify-between gap-4 border-t bg-muted/30 px-6 py-3">
-        <span className="text-lg font-bold" style={{ color: KIWI_GREEN }}>
-          Kiwi.com
-        </span>
-        <p className="text-sm text-muted-foreground">
-          curated by <span className="font-medium text-foreground">Mobbin</span>
-        </p>
-      </footer>
     </div>
   );
 }
