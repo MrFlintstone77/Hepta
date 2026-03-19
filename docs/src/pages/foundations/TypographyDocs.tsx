@@ -18,12 +18,12 @@ export function TypographyDocs() {
       <ul className="not-prose mt-4 flex flex-wrap gap-4">
         <li>
           <a
-            href="https://fonts.google.com/specimen/Vend+Sans"
+            href="https://github.com/lauridskern/open-runde"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg border border-border bg-muted/50 px-4 py-3 text-sm font-medium transition-colors hover:bg-muted"
           >
-            Vend Sans
+            Open Runde
             <ExternalLink className="h-4 w-4" />
           </a>
         </li>
@@ -40,13 +40,13 @@ export function TypographyDocs() {
       <p>Use typography tokens for consistent font stacks:</p>
       <ul>
         <li>
-          <code>--hepta-typography-font-family-sans</code> – primary UI and body text (Vend Sans, system-ui)
+          <code>--hepta-typography-font-family-sans</code> – primary UI and body text (Open Runde, system-ui)
         </li>
         <li>
           <code>--hepta-typography-font-family-mono</code> – code and technical content (Menlo)
         </li>
       </ul>
-      <h3 className="mt-6 text-lg font-semibold">Sans (Vend Sans)</h3>
+      <h3 className="mt-6 text-lg font-semibold">Sans (Open Runde)</h3>
       <div className="mt-2 rounded-lg border border-border bg-muted/30 p-6">
         <p style={{ fontFamily: 'var(--hepta-typography-font-family-sans)' }} className="text-lg">
           The quick brown fox jumps over the lazy dog.

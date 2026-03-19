@@ -22,6 +22,7 @@ import { RoxDashboardFullPageDemo } from './examples/RoxDashboardExample';
 import { KiwiFlightSearchFullPageDemo } from './examples/KiwiFlightSearchExample';
 import { KrakenDashboardFullPageDemo } from './examples/KrakenDashboardExample';
 import { AnalyticsDashboardFullPageDemo } from './examples/AnalyticsDashboardExample';
+import { CommunityGivingDashboardFullPageDemo } from './examples/CommunityGivingDashboardExample';
 
 const DEMOS = [
   { id: 'analytics-dashboard', label: 'Analytics dashboard', description: 'Mixpanel-style analytics with charts, metrics, filters, and breakdowns.', Component: AnalyticsDashboardFullPageDemo },
@@ -38,6 +39,7 @@ const DEMOS = [
   { id: 'spending-insights', label: 'Spending insights', description: 'Charts and breakdowns by category and time period.', Component: SpendingInsightsFullPageDemo },
   { id: 'transaction-list', label: 'Transaction list', description: 'Transaction table with filtering, search, and pagination.', Component: TransactionListFullPageDemo },
   { id: 'debt-list', label: 'Debt list', description: 'Track outstanding debts with name, date, and amount owed.', Component: DebtListFullPageDemo },
+  { id: 'community-giving-dashboard', label: 'Community giving', description: 'Create communities, invite members, and coordinate member-to-member gives.', Component: CommunityGivingDashboardFullPageDemo },
 ] as const;
 
 export function Examples() {
@@ -81,7 +83,7 @@ export function Examples() {
                   {label}
                 </button>
               </DialogTrigger>
-              <DialogContent className="max-w-7xl w-full max-h-[85vh] h-[85vh] p-0 gap-0 overflow-hidden flex flex-col">
+              <DialogContent className="max-w-7xl w-full max-h-[85vh] h-[768px] p-0 gap-0 overflow-hidden flex flex-col">
                 <DialogHeader className="sr-only">
                   <DialogTitle>{label} demo</DialogTitle>
                 </DialogHeader>

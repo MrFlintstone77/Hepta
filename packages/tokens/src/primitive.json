@@ -56,7 +56,7 @@
   },
   "typography": {
     "fontFamily": {
-      "sans": { "value": "'Vend Sans', system-ui, -apple-system, sans-serif", "$description": "Primary font family" },
+        "sans": { "value": "'Open Runde', system-ui, -apple-system, sans-serif", "$description": "Primary font family" },
       "mono": { "value": "Menlo, Monaco, 'Courier New', monospace", "$description": "Monospace font" }
     },
     "fontSize": {

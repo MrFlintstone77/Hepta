@@ -6,7 +6,7 @@ module.exports = {
   	extend: {
   		fontFamily: {
   			sans: [
-  				'Vend Sans',
+  				'Open Runde',
   				'system-ui',
   				'-apple-system',
   				'sans-serif'

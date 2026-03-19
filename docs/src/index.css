@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Open Runde webfont.
+   Note: we load the WOFF2 from the public Open Runde distribution used by onlinewebfonts. */
+@font-face {
+  font-family: 'Open Runde';
+  src: url('https://www.onlinewebfonts.com/download/69e6883cc0ff6112a74af1228f273734') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('https://www.onlinewebfonts.com/download/146447011a38f50c5a6a1aa61236dc61') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('https://www.onlinewebfonts.com/download/db39321fd657e9dfbca1769d8d76f6b8') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Runde';
+  src: url('https://www.onlinewebfonts.com/download/db39321fd657e9dfbca1769d8d76f6b8') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -82,7 +116,7 @@
     @apply border-border;
   }
   html {
-    font-family: 'Vend Sans', system-ui, -apple-system, sans-serif;
+    font-family: var(--hepta-typography-font-family-sans, 'Open Runde', system-ui, -apple-system, sans-serif);
     font-size: var(--hepta-typography-font-size-base, 15px);
   }
   body {

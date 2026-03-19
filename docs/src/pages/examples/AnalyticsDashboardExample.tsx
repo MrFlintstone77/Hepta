@@ -96,7 +96,7 @@ export function AnalyticsDashboardFullPageDemo() {
   const [activeHeaderTab, setActiveHeaderTab] = useState('query');
 
   return (
-    <div className="flex h-full min-h-0 flex-col bg-background">
+    <div className="flex h-[768px] min-h-0 flex-col bg-background">
       {/* Top header */}
       <header className="flex shrink-0 items-center justify-between gap-4 border-b px-4 py-3">
         <p className="text-sm text-muted-foreground">SLMobbin / Untitled</p>
@@ -488,13 +488,6 @@ export function AnalyticsDashboardFullPageDemo() {
         </aside>
       </div>
 
-      {/* Footer */}
-      <footer className="flex shrink-0 items-center justify-between border-t bg-muted/50 px-6 py-3">
-        <span className="font-semibold">Mixpanel</span>
-        <p className="text-sm text-muted-foreground">
-          curated by <span className="font-medium text-foreground">Mobbin</span>
-        </p>
-      </footer>
     </div>
   );
 }
